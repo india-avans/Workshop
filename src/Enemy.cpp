@@ -1,7 +1,7 @@
 #include "Enemy.h"
 
 Enemy::Enemy(float x, float y, float width, float height, float mass, float velocity_x, float velocity_y) noexcept : PhysicsObject(India::PhysicsObjectData{ { x,y,width,height, 1, {
-		std::pair<std::string, std::vector<India::Sprite>>{"idle", {India::Sprite("sprites/player_placeholder.png")}}
+		std::pair<std::string, std::vector<India::Sprite>>{"idle", {India::Sprite("sprites/Meteorite/1.png")}}
 		}, "idle" }, mass
 	}) {
 	AddComponent<India::VelocityComponent>(velocity_x, velocity_y);

@@ -11,6 +11,7 @@ private:
 	bool _can_interact = false;
 	float _movement_speed = 5.0f;
 	float _jump_speed = 9.0f;
+	bool _went_left;
 
 	std::pair<std::function<void(India::Object&)>, std::function<void()>> HandleCollision(India::Direction direction);
 	std::map<India::Direction, std::pair<std::function<void(Object&)>, std::function<void()>>> GetCollisionHandlers();

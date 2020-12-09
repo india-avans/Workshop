@@ -20,11 +20,8 @@ void Level::Initialize()
 {
 	India::MapScene::Initialize();
 
-	float enemy_width = 40;
-	float enemy_height = 40;
-
-	float character_width = 30;
-	float character_height = 30;
+	float character_width = 50;
+	float character_height = 40;
 
 	AddCharacter((_width - character_width) / 2, _height * 0.05, character_width, character_height);
 
