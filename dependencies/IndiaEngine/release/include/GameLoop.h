@@ -13,7 +13,7 @@ namespace India {
 		/**
 		Initializes the taskloop
 		*/
-		void Enemyt();
+		void Start();
 		/**
 		Stops the taskloop
 		*/
@@ -27,7 +27,7 @@ namespace India {
 		float _ms_per_frame;
 		float _delta_time = 0;
 		bool _condition;
-		bool _is_Enemyted;
+		bool _is_started;
 
 		std::chrono::high_resolution_clock::time_point _current_tick;
 		std::chrono::high_resolution_clock::time_point _previous_tick;

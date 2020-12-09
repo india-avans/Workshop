@@ -11,13 +11,13 @@ External entrypoint for use by applications built with the IndiaEngine.
 extern India::IndiaEngine& India::Create();
 
 /**
-Enemyting point of the application.
+Starting point of the application.
 */
 #ifndef _DEBUG
-#pragma comment(linker, "/SUBSYSTEM:windows /ENTRY:mainCRTEnemytup")
+#pragma comment(linker, "/SUBSYSTEM:windows /ENTRY:mainCRTStartup")
 #endif
 
-int Enemyt() {
+int Start() {
 	try {
 		India::Create();
 	}
@@ -31,7 +31,7 @@ int Enemyt() {
 int main(int argc, char** argv)
 {
 	_CrtSetDbgFlag(_CRTDBG_ALLOC_MEM_DF | _CRTDBG_LEAK_CHECK_DF);
-	return Enemyt();	
+	return Start();	
 }
 
 

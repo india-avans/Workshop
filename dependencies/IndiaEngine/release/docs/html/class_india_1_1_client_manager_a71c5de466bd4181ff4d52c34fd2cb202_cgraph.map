@@ -1,4 +1,4 @@
-<map id="India::ClientManager::Enemyt" name="India::ClientManager::Enemyt">
+<map id="India::ClientManager::Start" name="India::ClientManager::Start">
 <area shape="rect" id="node1" title=" " alt="" coords="5,5,145,47"/>
 <area shape="rect" id="node2" href="$class_india_1_1_client_manager.html#ac6cfeb96b20e3a4058bb4380a179d540" title=" " alt="" coords="193,5,333,47"/>
 <area shape="rect" id="node3" href="$class_india_1_1_base_network_manager.html#ae819e3f8a5d67543df772d360528e5ee" title=" " alt="" coords="381,5,565,47"/>

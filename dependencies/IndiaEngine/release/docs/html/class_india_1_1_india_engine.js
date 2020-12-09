@@ -6,7 +6,7 @@ var class_india_1_1_india_engine =
     [ "OnSceneChanged", "class_india_1_1_india_engine.html#a795c881611f289cbed31c621a4928d61", null ],
     [ "PollNetwork", "class_india_1_1_india_engine.html#a86a2fe441db69b46e8e5a8209884c04f", null ],
     [ "Render", "class_india_1_1_india_engine.html#a388367411a9e86565a9e269735fddf5b", null ],
-    [ "Enemyt", "class_india_1_1_india_engine.html#a29505675b5639ba37e927251cc2f3121", null ],
+    [ "Start", "class_india_1_1_india_engine.html#a29505675b5639ba37e927251cc2f3121", null ],
     [ "Update", "class_india_1_1_india_engine.html#af88c9cf58239ef2f1633058f036b3449", null ],
     [ "_drawing_facade", "class_india_1_1_india_engine.html#afbdde538140eef6de088af1e2c434646", null ],
     [ "_game_systems", "class_india_1_1_india_engine.html#a49a13319220d79b105fde71f7b502fd0", null ],

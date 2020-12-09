@@ -7,6 +7,6 @@ var class_india_1_1_network_manager =
     [ "PollNetwork", "class_india_1_1_network_manager.html#a907c7581323971f5783e62c281105a83", null ],
     [ "RegisterNetworkEvent", "class_india_1_1_network_manager.html#a78a8af1a3aa53fb75e0c6d622692fc0b", null ],
     [ "SendPacket", "class_india_1_1_network_manager.html#affd452c46f618566fc39c52ad79e10a1", null ],
-    [ "Enemyt", "class_india_1_1_network_manager.html#a2157c8c99f73178b437825fac2a5fff7", null ],
+    [ "Start", "class_india_1_1_network_manager.html#a2157c8c99f73178b437825fac2a5fff7", null ],
     [ "pimpl", "class_india_1_1_network_manager.html#a8ae9b785c9d4efeab0f21300ac2a1903", null ]
 ];

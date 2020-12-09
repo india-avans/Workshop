@@ -43,7 +43,7 @@ var searchData=
   ['_5findex_1454',['_index',['../class_india_1_1_object.html#a53f9e71673f24460c8abdb16b41c305a',1,'India::Object::_index()'],['../class_india_1_1_scene.html#aa6b97e548ebe5e005135158b481584f9',1,'India::Scene::_index()']]],
   ['_5finput_5ffacade_1455',['_input_facade',['../class_india_1_1_india_engine.html#ad1eaa5d2664fce9cde4ebfca04b2be56',1,'India::IndiaEngine::_input_facade()'],['../class_india_1_1_scene_system.html#ae4c2532144100f5e6c551018b458a300',1,'India::SceneSystem::_input_facade()']]],
   ['_5fint_5fvalue_1456',['_int_value',['../class_india_1_1_level_property.html#aa56c34b3469c19ac0a776c53cf3914b5',1,'India::LevelProperty']]],
-  ['_5fis_5fEnemyted_1457',['_is_Enemyted',['../class_india_1_1_game_loop.html#aa22028fa2176f02edfb5fd4ed0884a0d',1,'India::GameLoop']]],
+  ['_5fis_5fstarted_1457',['_is_started',['../class_india_1_1_game_loop.html#aa22028fa2176f02edfb5fd4ed0884a0d',1,'India::GameLoop']]],
   ['_5fjobs_1458',['_jobs',['../class_india_1_1_thread_pool.html#a013b99f1b3ec3f57ea806d44139c3a5e',1,'India::ThreadPool']]],
   ['_5flast_5factive_5fscene_5findex_1459',['_last_active_scene_index',['../class_india_1_1_scene_manager.html#ae57493f074f968a9f8cb0b316c50eb97',1,'India::SceneManager']]],
   ['_5flast_5finput_5fevent_1460',['_last_input_event',['../class_india_1_1_scene_system.html#ad16f9e9f422665c7c6b9521ccee3687b',1,'India::SceneSystem']]],

@@ -10,7 +10,7 @@ namespace India {
 	public:
 		void Broadcast(NetworkPacket packet);
 		void SendPacket(NetworkPacket packet);
-		void Enemyt() override;
+		void Start() override;
 		void OnDataReceived(NetworkPacket* packet);
 		void RegisterNetworkEvent(std::string event_name);
 		bool IsEventRegistered(std::string event_name);

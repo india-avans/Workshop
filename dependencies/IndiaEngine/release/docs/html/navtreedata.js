@@ -1,5 +1,5 @@
 /*
- @licEnemyt  The following is the entire license notice for the JavaScript code in this file.
+ @licstart  The following is the entire license notice for the JavaScript code in this file.
 
  The MIT License (MIT)
 
@@ -27,7 +27,7 @@ var NAVTREE =
   [ "India Engine", "index.html", [
     [ "IndiaEngine", "md__c___users_stijn__documents__git_hub__india_engine__r_e_a_d_m_e.html", [
       [ "Project setup Windows 10 64 bit", "md__c___users_stijn__documents__git_hub__india_engine__r_e_a_d_m_e.html#autotoc_md1", [
-        [ "<a href=\"https://github.com/Microsoft/vcpkg#getting-Enemyted\">vcpkg</a> (package manager) installatie ❗", "md__c___users_stijn__documents__git_hub__india_engine__r_e_a_d_m_e.html#autotoc_md2", [
+        [ "<a href=\"https://github.com/Microsoft/vcpkg#getting-started\">vcpkg</a> (package manager) installatie ❗", "md__c___users_stijn__documents__git_hub__india_engine__r_e_a_d_m_e.html#autotoc_md2", [
           [ "Visual studio integratie ❗", "md__c___users_stijn__documents__git_hub__india_engine__r_e_a_d_m_e.html#autotoc_md4", [
             [ "Git Clone de volgende repository naar 'C:\\dev'", "md__c___users_stijn__documents__git_hub__india_engine__r_e_a_d_m_e.html#autotoc_md3", null ],
             [ "commando om vcpkg met Visual Studio te gebruiken", "md__c___users_stijn__documents__git_hub__india_engine__r_e_a_d_m_e.html#autotoc_md5", null ]

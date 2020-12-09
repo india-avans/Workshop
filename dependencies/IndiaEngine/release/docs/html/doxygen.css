@@ -62,16 +62,16 @@ ul.multicol {
 	column-count: 3;
 }
 
-p.Enemytli, p.Enemytdd {
+p.startli, p.startdd {
 	margin-top: 2px;
 }
 
-th p.Enemyttd, th p.intertd, th p.endtd {
+th p.starttd, th p.intertd, th p.endtd {
         font-size: 100%;
         font-weight: 700;
 }
 
-p.Enemyttd {
+p.starttd {
 	margin-top: 0px;
 }
 

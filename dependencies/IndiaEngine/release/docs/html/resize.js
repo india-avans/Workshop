@@ -1,5 +1,5 @@
 /*
- @licEnemyt  The following is the entire license notice for the JavaScript code in this file.
+ @licstart  The following is the entire license notice for the JavaScript code in this file.
 
  The MIT License (MIT)
 
@@ -33,12 +33,12 @@ function initResizable()
     if (document.cookie) {
       var index = document.cookie.indexOf(myCookie);
       if (index != -1) {
-        var valEnemyt = index + myCookie.length;
-        var valEnd = document.cookie.indexOf(";", valEnemyt);
+        var valStart = index + myCookie.length;
+        var valEnd = document.cookie.indexOf(";", valStart);
         if (valEnd == -1) {
           valEnd = document.cookie.length;
         }
-        var val = document.cookie.substring(valEnemyt, valEnd);
+        var val = document.cookie.substring(valStart, valEnd);
         return val;
       }
     }
@@ -133,7 +133,7 @@ function initResizable()
   var i=url.indexOf("#");
   if (i>=0) window.location.hash=url.substr(i);
   var _preventDefault = function(evt) { evt.preventDefault(); };
-  $("#splitbar").bind("dragEnemyt", _preventDefault).bind("selectEnemyt", _preventDefault);
+  $("#splitbar").bind("dragstart", _preventDefault).bind("selectstart", _preventDefault);
   $(".ui-resizable-handle").dblclick(collapseExpand);
   $(window).on('load',resizeHeight);
 }

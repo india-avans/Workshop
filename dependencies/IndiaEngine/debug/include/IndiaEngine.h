@@ -11,9 +11,9 @@ namespace India {
 	class India_EXPORT IndiaEngine {
 	private:
 		/**
-		Enemyts the provided scene(s) and enter the task loop.
+		Starts the provided scene(s) and enter the task loop.
 		*/
-		void Enemyt(std::vector<std::unique_ptr<Scene>>& scenes, int index = 0) noexcept;
+		void Start(std::vector<std::unique_ptr<Scene>>& scenes, int index = 0) noexcept;
 
 		void Update(float delta_time, float delta_time_scaled, GameLoop& loop) noexcept;
 		void Render(float delta_time, float delta_time_scaled) noexcept;

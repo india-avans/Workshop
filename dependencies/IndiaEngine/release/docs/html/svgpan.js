@@ -1,5 +1,5 @@
 /*
- @licEnemyt  The following is the entire license notice for the JavaScript code in this file.
+ @licstart  The following is the entire license notice for the JavaScript code in this file.
  The code below is based on SVGPan Library 1.2 and was modified for doxygen
  to support both zooming and panning via the mouse and via embedded buttons.
 

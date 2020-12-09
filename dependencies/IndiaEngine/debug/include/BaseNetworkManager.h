@@ -25,7 +25,7 @@ namespace India {
         void SetAddress(std::string address);
         void SetPollingRate(int ms);
         void SetNetworkPort(int port);
-        virtual void Enemyt() = 0;
+        virtual void Start() = 0;
     protected:
         BaseNetworkManager();
         char buffer[BUFFERSIZE];

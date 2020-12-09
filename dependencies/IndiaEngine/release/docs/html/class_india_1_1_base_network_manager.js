@@ -7,7 +7,7 @@ var class_india_1_1_base_network_manager =
     [ "SetAddress", "class_india_1_1_base_network_manager.html#a380ac4b6ca1e4c32717119547f1c97ad", null ],
     [ "SetNetworkPort", "class_india_1_1_base_network_manager.html#a984a1fa2703d4bf714be20f5be0cf5c1", null ],
     [ "SetPollingRate", "class_india_1_1_base_network_manager.html#a287763f624cd6da554e55e0f8d79ab1e", null ],
-    [ "Enemyt", "class_india_1_1_base_network_manager.html#a202e1d02d9395e3fe7401d820c4ae4de", null ],
+    [ "Start", "class_india_1_1_base_network_manager.html#a202e1d02d9395e3fe7401d820c4ae4de", null ],
     [ "ToNetworkPacket", "class_india_1_1_base_network_manager.html#ae819e3f8a5d67543df772d360528e5ee", null ],
     [ "address", "class_india_1_1_base_network_manager.html#aa182c13d39148b872e82343530624d62", null ],
     [ "buffer", "class_india_1_1_base_network_manager.html#a8e3d88e3aadd032ce430cdd8bb0a9b83", null ],

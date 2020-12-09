@@ -1,5 +1,5 @@
 /*
- @licEnemyt  The following is the entire license notice for the JavaScript code in this file.
+ @licstart  The following is the entire license notice for the JavaScript code in this file.
 
  The MIT License (MIT)
 
