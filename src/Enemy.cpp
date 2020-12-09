@@ -1,10 +1,10 @@
 #include "Enemy.h"
 
-Enemy::Enemy(float x, float y, float mass, float width, float height, float velocity_x) noexcept : PhysicsObject(India::PhysicsObjectData{ { x,y,width,height, 1, {
+Enemy::Enemy(float x, float y, float width, float height, float mass, float velocity_x, float velocity_y) noexcept : PhysicsObject(India::PhysicsObjectData{ { x,y,width,height, 1, {
 		std::pair<std::string, std::vector<India::Sprite>>{"idle", {India::Sprite("sprites/player_placeholder.png")}}
 		}, "idle" }, mass
 	}) {
-	AddComponent<India::VelocityComponent>(velocity_x, 0);
+	AddComponent<India::VelocityComponent>(velocity_x, velocity_y);
 	AddComponent<India::CollisionComponent>(India::Rectangle{ 0, 0, width, height }, GetCollisionHandlers());
 };
 
@@ -27,12 +27,12 @@ std::pair<std::function<void(India::Object&)>, std::function<void()>> Enemy::Han
 std::map<India::Direction, std::pair<std::function<void(India::Object&)>, std::function<void()>>> Enemy::GetCollisionHandlers()
 {
 	return 	std::map<India::Direction, std::pair<std::function<void(India::Object&)>, std::function<void()>>>{
+		{ India::Direction::Left, HandleCollision(India::Direction::Left) },
+		{ India::Direction::Right, HandleCollision(India::Direction::Right) },
 		{ India::Direction::Up, HandleCollision(India::Direction::Up)},
 		{ India::Direction::Down, HandleCollision(India::Direction::Down
 			,[this](India::Object&) {Collision::ToggleGravity(*this, false); }
 			,[this]() {Collision::ToggleGravity(*this, true); })
-		},
-		{ India::Direction::Left, HandleCollision(India::Direction::Left) },
-		{ India::Direction::Right, HandleCollision(India::Direction::Right) }
+		}
 	};
 }

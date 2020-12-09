@@ -109,36 +109,11 @@
                          "value":true
                         }],
                  "rotation":0,
-                 "type":"DungeonEntrance",
+                 "type":"EnemySpawnPoint",
                  "visible":true,
                  "width":47.7139830508474,
-                 "x":743.25,
-                 "y":579.375
-                }, 
-                {
-                 "height":39,
-                 "id":62,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"noclip",
-                         "type":"bool",
-                         "value":true
-                        }],
-                 "rotation":0,
-                 "text":
-                    {
-                     "color":"#aaff00",
-                     "fontfamily":"Roboto",
-                     "pixelsize":30,
-                     "text":"Deur",
-                     "wrap":true
-                    },
-                 "type":"",
-                 "visible":true,
-                 "width":68,
-                 "x":732.5,
-                 "y":491.5
+                 "x":486.583333333333,
+                 "y":366.041666666667
                 }],
          "opacity":1,
          "type":"objectgroup",

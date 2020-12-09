@@ -1,32 +1,22 @@
 #include "Character.h"
-#include "Door.h"
+
 #include "Utilities.h"
-#include "string"
 #include "CollisionHandlers.h"
 #include <Managers.h>
 #include <Components.h>
-
-Character::Character(const Character& other) : India::GameObject(other)
-{
-	AddComponent<India::ActiveSceneComponent>(other.GetComponent<India::ActiveSceneComponent>());
-	AddComponent<India::VelocityComponent>(other.GetComponent<India::VelocityComponent>());
-	AddComponent<India::CollisionComponent>(other.GetComponent <India::CollisionComponent>().GetBounds(), GetCollisionHandlers());
-	AddComponent<India::InputComponent>(GetKeybinds());
-	if (other.HasComponent<India::CameraComponent>()) {
-		AddComponent<India::CameraComponent>(other.GetComponent<India::CameraComponent>());
-	}
-	SetZOrder(other.GetZOrder());
-}
+#include <Enemy.h>
 
 Character::Character(float x, float y, float mass, float width, float height) noexcept
 	: GameObject(India::GameObjectData{ x,y,width,height, 100, GetSprites(), "walkLeft" }) {
 	SetZOrder(69);
 
+	AddComponent<India::CameraComponent>(896, 504);
 	AddComponent<India::ActiveSceneComponent>();
 	AddComponent<India::VelocityComponent>(0, 0);
 	AddComponent<India::CollisionComponent>(India::Rectangle{ 0, 0, width, height }, GetCollisionHandlers());
 	AddComponent<India::InputComponent>(GetKeybinds());
 
+	GetComponent<India::ActiveSceneComponent>().SetSceneName("GameOver");
 	GetComponent<India::VelocityComponent>().SetDecayX(_movement_speed / 4);
 	GetComponent<India::VelocityComponent>().SetDecayY(_movement_speed / 4);
 	GetComponent<India::SpriteComponent>().SetAnimationDelay(200, "idle");
@@ -50,9 +40,14 @@ void Character::Update() {
 std::pair<std::function<void(India::Object&)>, std::function<void()>> Character::HandleCollision(India::Direction direction)
 {
 	return
-	{ 
+	{
 		[this, direction](Object& subject) {
+			if (dynamic_cast<Enemy*>(&subject)) {
+				GetComponent<India::ActiveSceneComponent>().SetActivationPermissions(true);
+			}
+			if (!subject.HasComponent<India::VelocityComponent>()) {
 			Collision::RepositionTarget(*this, subject, direction);
+			}
 			Collision::ToggleVelocityDirection(*this, direction, false);
 		},
 		[this, direction] {
@@ -65,9 +60,9 @@ std::map<India::Direction, std::pair<std::function<void(India::Object&)>, std::f
 {
 	return 	std::map<India::Direction, std::pair<std::function<void(India::Object&)>, std::function<void()>>>{
 		{ India::Direction::Up, HandleCollision(India::Direction::Up)},
-		{ India::Direction::Down, HandleCollision(India::Direction::Down)},
-		{ India::Direction::Left, HandleCollision(India::Direction::Left)},
-		{ India::Direction::Right, HandleCollision(India::Direction::Right)}
+		{ India::Direction::Down, HandleCollision(India::Direction::Down) },
+		{ India::Direction::Left, HandleCollision(India::Direction::Left) },
+		{ India::Direction::Right, HandleCollision(India::Direction::Right) }
 	};
 }
 

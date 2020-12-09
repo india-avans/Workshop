@@ -5,7 +5,6 @@
 
 class Character : public India::GameObject {
 public:
-	Character(const Character& other);
 	Character(float x, float y, float mass, float width, float height) noexcept;
 	void Update();
 private:
