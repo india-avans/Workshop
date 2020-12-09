@@ -6,6 +6,7 @@ Enemy::Enemy(float x, float y, float width, float height, float mass, float velo
 	}) {
 	AddComponent<India::VelocityComponent>(velocity_x, velocity_y);
 	AddComponent<India::CollisionComponent>(India::Rectangle{ 0, 0, width, height }, GetCollisionHandlers());
+	SetZOrder(69);
 };
 
 std::pair<std::function<void(India::Object&)>, std::function<void()>> Enemy::HandleCollision(India::Direction direction, std::function<void(Object&)> on_collision, std::function<void()> no_collision)

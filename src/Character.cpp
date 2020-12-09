@@ -86,10 +86,10 @@ std::vector<std::tuple<std::string, std::function<void()>>> Character::GetKeybin
 
 std::map<std::string, std::vector<India::Sprite>> Character::GetSprites()
 {
-	std::string base_path{ "sprites/Character_" };
+	std::string base_path{ "sprites/Character/" };
 	std::map < std::string, std::pair<std::string, int>> sprite_paths{
-		{"idle", {base_path + "Idle/Idle_Animation_",3}},
-		{"walkLeft", {base_path + "WalkLeft/WalkLeft_Animation_",4}},
+		{"idle", {base_path + "Idle/",3}},
+		{"walkLeft", {base_path + "WalkLeft/",4}},
 		{"walkRight", {base_path + "WalkRight/",4}},
 	};
 	std::map<std::string, std::vector<India::Sprite>> sprites;

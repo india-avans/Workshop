@@ -1,0 +1,14 @@
+{ "columns":1,
+ "image":"..\/..\/sprites\/Spawn\/Enemy\/idle_0.png",
+ "imageheight":184,
+ "imagewidth":358,
+ "margin":0,
+ "name":"Enemy Spawn Point",
+ "spacing":0,
+ "tilecount":1,
+ "tiledversion":"1.4.2",
+ "tileheight":184,
+ "tilewidth":358,
+ "type":"tileset",
+ "version":1.4
+}

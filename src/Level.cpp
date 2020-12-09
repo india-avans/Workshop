@@ -11,7 +11,7 @@
 #include "Character.h"
 #include "Wave.h"
 
-Level::Level() noexcept : India::MapScene(992, 608, "level1")
+Level::Level() noexcept : India::MapScene(1024, 1024, "level")
 {
 	REGISTER_TILED_TYPE("EnemySpawnPoint", EnemySpawnPoint);
 }
@@ -26,8 +26,8 @@ void Level::Initialize()
 	float character_width = 30;
 	float character_height = 30;
 
-	AddCharacter(800, 200, character_width, character_height);
-	
+	AddCharacter((_width - character_width) / 2, _height * 0.05, character_width, character_height);
+
 	Objects.AddObject(std::make_unique<Fps>());
 	Objects.AddObject(std::make_unique<Score>());
 	Objects.AddObject(std::make_unique<Wave>());
@@ -42,6 +42,7 @@ void Level::Initialize()
 void Level::OnSceneActivated()
 {
 	DestroyEnemies();
+	ResetCharacters();
 	ResetWaves();
 }
 
@@ -68,10 +69,19 @@ void Level::AddCharacter(float start_x, float start_y, float width, float height
 
 void Level::DestroyEnemies()
 {
-	for (auto& score : Objects.GetObjects<Enemy>()) {
-		score.get().SetState(India::ObjectState::ToBeDestroyed);
+	for (auto& enemy : Objects.GetObjects<Enemy>()) {
+		enemy.get().SetState(India::ObjectState::ToBeDestroyed);
 	}
 	Objects.DestroyObjects();
+}
+
+void Level::ResetCharacters()
+{
+	for (auto& character : Objects.GetObjects<Character>()) {
+		auto& transform = character.get().GetComponent<India::TransformComponent>();
+		transform.SetX((_width - transform.GetWidth()) / 2);
+		transform.SetY(_height * 0.05);
+	}
 }
 
 void Level::ResetWaves()
