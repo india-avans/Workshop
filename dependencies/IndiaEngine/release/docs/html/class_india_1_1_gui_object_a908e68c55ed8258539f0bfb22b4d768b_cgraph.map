@@ -1,0 +1,12 @@
+<map id="India::GuiObject::Draw" name="India::GuiObject::Draw">
+<area shape="rect" id="node1" title=" " alt="" coords="5,274,157,301"/>
+<area shape="rect" id="node2" href="$class_india_1_1_graphics2_d.html#a3d2f237b95313b9c9c700b900f4ebca2" title=" " alt="" coords="235,5,369,47"/>
+<area shape="rect" id="node3" href="$class_india_1_1_graphics2_d.html#acfb0514237457ab934058d79e4788dde" title=" " alt="" coords="235,71,369,112"/>
+<area shape="rect" id="node4" href="$class_india_1_1_background_component.html#af4f55c9a96aa786fd1c9b926cb370f1a" title=" " alt="" coords="206,136,398,177"/>
+<area shape="rect" id="node5" href="$class_india_1_1_transform_component.html#a0c2ef4e91801584da36e3ba6734124db" title=" " alt="" coords="212,201,392,243"/>
+<area shape="rect" id="node6" href="$class_india_1_1_background_component.html#a8458e26fe231f554c06f7b4ceb20036b" title=" " alt="" coords="206,267,398,308"/>
+<area shape="rect" id="node7" href="$class_india_1_1_object.html#aec84ec0b79cda45ce221e92ea9b690c6" title=" " alt="" coords="205,333,399,359"/>
+<area shape="rect" id="node8" href="$class_india_1_1_transform_component.html#a8f5a513040141625764a4aa5c14bd13b" title=" " alt="" coords="212,384,392,425"/>
+<area shape="rect" id="node9" href="$class_india_1_1_transform_component.html#ade842ff754aee4f4072b58e302afef10" title=" " alt="" coords="212,449,392,491"/>
+<area shape="rect" id="node10" href="$class_india_1_1_transform_component.html#a180961479fdf2766772f41b3cc786e35" title=" " alt="" coords="212,515,392,556"/>
+</map>

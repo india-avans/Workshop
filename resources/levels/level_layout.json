@@ -1,0 +1,14 @@
+{ "columns":1,
+ "image":"level_layout.png",
+ "imageheight":1600,
+ "imagewidth":1600,
+ "margin":0,
+ "name":"level_layout",
+ "spacing":0,
+ "tilecount":1,
+ "tiledversion":"1.4.2",
+ "tileheight":1600,
+ "tilewidth":1600,
+ "type":"tileset",
+ "version":1.4
+}

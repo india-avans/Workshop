@@ -1,0 +1,10 @@
+<map id="India::GameObject::Draw" name="India::GameObject::Draw">
+<area shape="rect" id="node1" title=" " alt="" coords="5,202,172,229"/>
+<area shape="rect" id="node2" href="$class_india_1_1_graphics2_d.html#acfb0514237457ab934058d79e4788dde" title=" " alt="" coords="250,5,383,47"/>
+<area shape="rect" id="node3" href="$class_india_1_1_sprite_component.html#a1f5d88b06fd50024fccb6cf4e60038ba" title=" " alt="" coords="238,71,395,112"/>
+<area shape="rect" id="node4" href="$class_india_1_1_transform_component.html#a0c2ef4e91801584da36e3ba6734124db" title=" " alt="" coords="227,136,407,177"/>
+<area shape="rect" id="node5" href="$class_india_1_1_object.html#aec84ec0b79cda45ce221e92ea9b690c6" title=" " alt="" coords="220,202,413,229"/>
+<area shape="rect" id="node6" href="$class_india_1_1_transform_component.html#a8f5a513040141625764a4aa5c14bd13b" title=" " alt="" coords="227,253,407,295"/>
+<area shape="rect" id="node7" href="$class_india_1_1_transform_component.html#ade842ff754aee4f4072b58e302afef10" title=" " alt="" coords="227,319,407,360"/>
+<area shape="rect" id="node8" href="$class_india_1_1_transform_component.html#a180961479fdf2766772f41b3cc786e35" title=" " alt="" coords="227,384,407,425"/>
+</map>

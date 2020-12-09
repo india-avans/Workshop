@@ -1,0 +1,22 @@
+{ "columns":64,
+ "editorsettings":
+    {
+     "export":
+        {
+         "format":"",
+         "target":"."
+        }
+    },
+ "image":"..\/..\/img\/mainlevbuild.png",
+ "imageheight":1024,
+ "imagewidth":1024,
+ "margin":0,
+ "name":"platformer fantasy 1",
+ "spacing":0,
+ "tilecount":4096,
+ "tiledversion":"1.4.2",
+ "tileheight":16,
+ "tilewidth":16,
+ "type":"tileset",
+ "version":1.4
+}

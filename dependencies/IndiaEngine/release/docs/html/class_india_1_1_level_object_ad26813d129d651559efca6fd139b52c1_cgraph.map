@@ -1,0 +1,8 @@
+<map id="India::LevelObject::Draw" name="India::LevelObject::Draw">
+<area shape="rect" id="node1" title=" " alt="" coords="5,136,129,177"/>
+<area shape="rect" id="node2" href="$class_india_1_1_sprite_component.html#a1f5d88b06fd50024fccb6cf4e60038ba" title=" " alt="" coords="189,5,346,47"/>
+<area shape="rect" id="node3" href="$class_india_1_1_transform_component.html#a0c2ef4e91801584da36e3ba6734124db" title=" " alt="" coords="177,71,357,112"/>
+<area shape="rect" id="node4" href="$class_india_1_1_transform_component.html#a8f5a513040141625764a4aa5c14bd13b" title=" " alt="" coords="177,136,357,177"/>
+<area shape="rect" id="node5" href="$class_india_1_1_transform_component.html#ade842ff754aee4f4072b58e302afef10" title=" " alt="" coords="177,201,357,243"/>
+<area shape="rect" id="node6" href="$class_india_1_1_transform_component.html#a180961479fdf2766772f41b3cc786e35" title=" " alt="" coords="177,267,357,308"/>
+</map>

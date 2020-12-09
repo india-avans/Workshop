@@ -1,0 +1,11 @@
+#pragma once
+#include "TransformComponent.h"
+#include "PhysicsComponent.h"
+#include "CollisionComponent.h"
+#include "VelocityComponent.h"
+#include "SpriteComponent.h"
+#include "ActiveSceneComponent.h"
+#include "InputComponent.h"
+#include "BackgroundComponent.h"
+#include "InputComponent.h"
+#include "CameraComponent.h"

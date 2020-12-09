@@ -1,0 +1,8 @@
+<map id="India::Object::GetComponent" name="India::Object::GetComponent">
+<area shape="rect" id="node1" title=" " alt="" coords="196,143,387,170"/>
+<area shape="rect" id="node2" href="$class_india_1_1_game_object.html#af8700dba5bf46b058425972254376697" title=" " alt="" coords="7,5,146,47"/>
+<area shape="rect" id="node3" href="$class_india_1_1_scene_system.html#a9a89309e08667b6f3c3dd9ac81f73a9d" title=" " alt="" coords="7,71,146,112"/>
+<area shape="rect" id="node4" href="$class_india_1_1_level_object.html#aceb68947c9d9ccb84f1ec35ae783d934" title=" " alt="" coords="15,136,139,177"/>
+<area shape="rect" id="node5" href="$class_india_1_1_physics_object.html#a0b2cddeaef3c0d2dd8f827332bd0967a" title=" " alt="" coords="5,201,148,243"/>
+<area shape="rect" id="node6" href="$class_india_1_1_sprite_system.html#af269efbe6007a9ab036fd38d5f24b641" title=" " alt="" coords="9,267,145,308"/>
+</map>

@@ -1,0 +1,11 @@
+#pragma once
+#include "System.h"
+#include "SpriteSystem.h"
+#include "PhysicsSystem.h"
+#include "CollisionSystem.h"
+#include "VelocitySystem.h"
+#include "ActiveSceneSystem.h"
+#include "CameraSystem.h"
+#include "SceneSystem.h"
+#include "InputSystem.h"
+#include "ObjectSystem.h"

@@ -1,0 +1,9 @@
+<map id="India::CollisionComponent" name="India::CollisionComponent">
+<area shape="rect" id="node1" title=" " alt="" coords="79,756,251,1009"/>
+<area shape="rect" id="node2" href="$class_india_1_1_component.html" title=" " alt="" coords="5,543,128,693"/>
+<area shape="rect" id="node3" href="$struct_india_1_1_rectangle.html" title=" " alt="" coords="108,160,223,311"/>
+<area shape="rect" id="node6" href="$struct_india_1_1_collider.html" title=" " alt="" coords="203,373,386,480"/>
+<area shape="rect" id="node4" href="$struct_india_1_1_shape.html" title=" " alt="" coords="198,5,293,97"/>
+<area shape="rect" id="node7" href="$struct_india_1_1_collider.html" title=" " alt="" coords="247,182,409,289"/>
+<area shape="rect" id="node5" href="$struct_india_1_1_box_collider.html" title=" " alt="" coords="217,565,340,671"/>
+</map>

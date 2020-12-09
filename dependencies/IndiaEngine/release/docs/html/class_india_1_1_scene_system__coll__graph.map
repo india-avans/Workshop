@@ -1,0 +1,12 @@
+<map id="India::SceneSystem" name="India::SceneSystem">
+<area shape="rect" id="node1" title=" " alt="" coords="257,675,395,796"/>
+<area shape="rect" id="node2" href="$class_india_1_1_system.html" title=" " alt="" coords="37,454,140,546"/>
+<area shape="rect" id="node3" href="$class_india_1_1_input_facade.html" title=" " alt="" coords="165,410,314,590"/>
+<area shape="rect" id="node4" href="$class_india_1_1_input_key_translator_s_d_l.html" title=" " alt="" coords="5,160,196,325"/>
+<area shape="rect" id="node5" href="$class_india_1_1_input_event.html" title=" " alt="" coords="338,425,487,575"/>
+<area shape="rect" id="node6" href="$class_india_1_1_event.html" title=" " alt="" coords="220,189,381,296"/>
+<area shape="rect" id="node7" href="$class_india_1_1_event.html" title=" " alt="" coords="214,5,387,97"/>
+<area shape="rect" id="node8" href="$struct_india_1_1_mouse_pos.html" title=" " alt="" coords="405,197,524,289"/>
+<area shape="rect" id="node9" href="$struct_india_1_1_size.html" title=" " alt="" coords="549,197,631,289"/>
+<area shape="rect" id="node10" href="$class_india_1_1_drawing_facade.html" title=" " alt="" coords="512,388,673,612"/>
+</map>
